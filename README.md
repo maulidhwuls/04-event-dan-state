@@ -28,5 +28,9 @@ Hasil  ketika pop up ditekan
 3. Hasil ketika Tombol-1 ditekan
 ![Screenshoot](assets-report/W04-3.png)
 
+4. Saat kita menekan tombol "Artikel Selanjutnya" sebanyak lebih dari 5 kali atau lebih dari jumlah halaman artikel maka akan muncul kode error, hal ini bisa terjadi karena terdapat kondisi yang menghentikan nilai index terus ditambah. Oleh karena itu dibuat sebuah kondisi yang mana tombol "Artikel Selanjutnya" hanya bisa dijalankan apabila indexnya kurang dari 4. Begitupun dengan tombol "Artikel Sebelumnya" hanya dapat dijalankan jika kondisi indexnya lebih dari 0 atau posisinya pada halaman pertama.
+![Screenshoot](assets-report/W04-4a.png)
+![Screenshoot](assets-report/W04-4b.png)
+
 ## Deploy on Vercel
 
