@@ -22,5 +22,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Hasil  ketika pop up ditekan
 ![Screenshoot](assets-report/W04-1a.png)
 
+2. Hasil ketika Tombol_2 ditekan
+![Screenshoot](assets-report/W04-2.png)
+
+3. 
+
 ## Deploy on Vercel
 
