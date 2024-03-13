@@ -25,7 +25,8 @@ Hasil  ketika pop up ditekan
 2. Hasil ketika Tombol_2 ditekan
 ![Screenshoot](assets-report/W04-2.png)
 
-3. 
+3. Hasil ketika Tombol-1 ditekan
+![Screenshoot](assets-report/W04-3.png)
 
 ## Deploy on Vercel
 
