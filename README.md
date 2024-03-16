@@ -32,5 +32,11 @@ Hasil  ketika pop up ditekan
 ![Screenshoot](assets-report/W04-4a.png)
 ![Screenshoot](assets-report/W04-4b.png)
 
+5. 1) Perbedaan dari kedua program Form_2 yang pertama dan kedua terletak pada penggunaan state "fullname". Kode pertama menggunakan state terpisah untuk state "firstName", "lastName", dan "fullName". Sedangkan kode kedua menggunakan variabel lokal "fullname" yang akan diperbarui jika ada perubahan pada "firstName" dan "lastName" serta akan menyimpan value yang diisi oleh state "firstName" + "lastName" dan kemudian menampilkannya.
+    2) Saat menggunakan state "fullName" terjadi kondisi asinkronus atau ketidakcocokan antara value yang ada pada state "firstName" dan state "lastName" dengan yang diharapkan pada state "fullName". Dengan demikian, jika kita menghilangkan state "fullName" kita menghindari masalah asinkronus tersebut dan membuat kode program kita lebih sederhana. 
+    ![Screenshoot](assets-report/W04-5.png)
+
+6. 
+
 ## Deploy on Vercel
 
