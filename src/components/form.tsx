@@ -13,12 +13,12 @@ export default function Form(){
     async function handleSubmit(e: { preventDefault: () => void; }) {
         e.preventDefault();
         setStatus('submitting');
-        try{
+        try {
             await submitForm(jawaban);
             setStatus('success');
-        }   catch (err){
+        }   catch (error) {
             setStatus('typing');
-            setError(err);
+            setError(error);
         }
         
     }
@@ -88,4 +88,17 @@ export function Form_2(){
         <p>Nama lengkap anda adalah : <b className="text-blue-600">{fullname}</b></p>
         </>
     );
+}
+
+function submitForm(jawaban) {
+    return new Promise<void>((resolve, reject) => {
+        setTimeout (() => {
+            let shouldError = jawaban.toLowerCase() !== 'tikus'
+            if (shouldError) {
+                reject(new Error('tebakan yang bagus tapi jawaban salah. Silakan coba lagi!'));
+            } else {
+                resolve();
+            }
+        }, 500);
+    });
 }

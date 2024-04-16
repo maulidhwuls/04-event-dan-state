@@ -36,7 +36,8 @@ Hasil  ketika pop up ditekan
     2) Saat menggunakan state "fullName" terjadi kondisi asinkronus atau ketidakcocokan antara value yang ada pada state "firstName" dan state "lastName" dengan yang diharapkan pada state "fullName". Dengan demikian, jika kita menghilangkan state "fullName" kita menghindari masalah asinkronus tersebut dan membuat kode program kita lebih sederhana. 
     ![Screenshoot](assets-report/W04-5.png)
 
-6. 
+6. Penulisan key={to.email} pada elemen <Chat> memiliki tujuan untuk memberikan identitas unik pada setiap instance dari komponen <Chat>. Sedangkan Props key digunakan untuk melakukan optimisasi rendering. Dalam konteks ini, to.email digunakan sebagai kunci karena email dianggap unik untuk setiap kontak. Dengan demikian, setiap kali nilai dari to.email berubah (ketika pengguna memilih kontak yang berbeda).
+![Screenshoot](assets-report/W04-6.png)
 
 ## Deploy on Vercel
 
